@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CHoriyev.S</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    height:105vh;
+    display:flex;
+    
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:url("https://cdn.pixabay.com/photo/2016/11/19/22/52/coding-1841550_1280.jpg") no-repeat center center/cover;
+}
+
+/* Profil */
+.profile{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.profile img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    border:2px solid rgba(255, 255, 255, 0.6);
+    margin-bottom:15px;
+}
+
+.profile h1{
+    color:white;
+    font-size:26px;
+    letter-spacing:1px;
+}
+
+/* Ultra Transparent GLASS BUTTON */
+.glass-btn{
+    width:360px;
+    display:flex;
+    align-items:center;
+    gap:18px;
+    padding:16px 22px;
+    margin:12px 0;
+    border-radius:22px;
+    text-decoration:none;
+    color:white;
+
+    background: rgba(255,255,255,0.03); /* Yanada shaffof */
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border:1px solid rgba(255,255,255,0.1); /* yumshoq border */
+
+    transition:0.35s ease;
+}
+
+.glass-btn img{
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.text{
+    display:flex;
+    flex-direction:column;
+}
+
+.platform{
+    font-size:14px;
+    opacity:0.7;
+    letter-spacing:1px;
+}
+
+.username{
+    font-size:14px;
+    font-weight:200;
+}
+
+/* Hover Effect */
+.glass-btn:hover{
+    transform:translateY(-5px) scale(1.03);
+    background: rgba(255,255,255,0.07); /* hoverda biroz ko‘proq ko‘rinadi */
+    box-shadow:0 0 20px rgba(255,255,255,0.3);
+}
+p{
+    color: #ffffff;
+}
+
+</style>
+</head>
+<body>
+
+<div class="profile">
+    <img src="bass.jpg">
+    <h1>CHoriyev.S</h1>
+    <p>Backend • Frontend Developer</p>
+</div>
+
+<!-- Instagram -->
+<a href="https://www.instagram.com/707.sultonali/" class="glass-btn" target="_blank">
+    <img src="tg.in.purofil.jpg">
+    <div class="text">
+        <div class="platform">Instagram Profil</div>
+        <div class="username"><b>@707.sultonali</b></div>
+    </div>
+</a>
+
+<!-- Telegram Profil -->
+<a href="https://t.me/SultonA1i" class="glass-btn" target="_blank">
+    <img src="tg.in.purofil.jpg">
+    <div class="text">
+        <div class="platform">Telegram Profil</div>
+        <div class="username">@𝐒𝖚𝖑𝖙𝖔𝖓 𝐀𝖑𝖎</div>
+    </div>
+</a>
+
+<!-- Telegram Kanal 1 -->
+<a href="https://t.me/SigmaMusiqa" class="glass-btn" target="_blank">
+    <img src="sigma.jpg">
+    <div class="text">
+        <div class="platform">Telegram Kanal</div>
+        <div class="username">@Sιɢмα - Mυѕιqα</div>
+    </div>
+</a>
+
+<!-- Telegram Kanal 2 -->
+<a href="https://t.me/Bass707sss" class="glass-btn" target="_blank">
+    <img src="bass.jpg">
+    <div class="text">
+        <div class="platform">Telegram Kanal</div>
+        <div class="username">@707sss</div>
+    </div>
+</a>
+
+</body>
+</html>
